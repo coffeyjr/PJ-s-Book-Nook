@@ -1,0 +1,45 @@
+:root {
+        /* Genre Colors */
+
+        --clr--fantasy: #7C238C;
+        --clr-mystery: #000;
+        --clr-romance: #EBC3DB;
+        --clr-scifi: #C1FBA4;
+        --clr-horror: #FC2F00;
+}
+
+
+#fantasy {
+    display: inline-block;
+    padding: .125em .5em .125em .5em;
+    border-radius: 20px;
+    background: var(--clr--fantasy);
+}
+
+#mystery {
+    display: inline-block;
+    padding: .125em .5em .125em .5em;
+    border-radius: 20px;
+    background: var(--clr-mystery);
+}
+
+#romance {
+    display: inline-block;
+    padding: .125em .5em .125em .5em;
+    border-radius: 20px;
+    background: var(--clr-romance);
+}
+
+#scifi {
+    display: inline-block;
+    padding: .125em .5em .125em .5em;
+    border-radius: 20px;
+    background: var(--clr-scifi);
+}
+
+#horror {
+    display: inline-block;
+    padding: .125em .5em .125em .5em;
+    border-radius: 20px;
+    background: var(--clr-horror);
+}
