@@ -272,6 +272,7 @@ p {
 .blog__text {
     padding: 1em;
 
+    -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
     height: 275px;
 }
