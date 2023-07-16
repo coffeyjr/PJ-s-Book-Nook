@@ -274,7 +274,7 @@ p {
 
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
-    height: 275px;
+    height: 300px;
 }
 
 .blog__genre, .blog__date {
