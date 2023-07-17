@@ -1,0 +1,79 @@
+---
+title: My Blog's
+layout: 'base.njk'
+---
+    <section class="main">
+        <div class="container">
+            <h1 class="page__title" id="title--center">My Blogs</h1>
+
+            <div class="blogs">
+
+                <!-- Court of Thorns and Roses -->
+                <div class="blog">
+                    {%- for post in collections.post | reverse -%}
+                        <div class="blog__content" id="{{ post.data.cover }}">
+                            <a href="{{ post.url }}" class="blog__link">
+                                
+                            
+                                <div class="blog__text">
+                                    
+                                        <p class="blog__genre flow" id="{{ post.data.test }}">{{ post.data.genre }}</p>
+                                        <p class="blog__title flow">{{ post.data.title }}</p>
+                                        <p class="blog__author flow">{{ post.data.author }}</p>
+                                        <p class="blog__date flow">{{ post.data.date }}</p>
+                                    
+                                </div>
+
+                            </a>
+                        </div>
+                    {%- endfor -%}
+                </div>
+
+                {# <!-- A Good Girls Guide to Murder -->
+                <div class="blog">
+                    <div class="blog__content" id="AGGGTM">
+                        <a href="" class="blog__link">
+                            
+                            <div class="blog__text">
+                                <p class="blog__genre flow" id="mystery">Mystery</p>
+                                <p class="blog__title flow">A Good Girls Guide to Murder</p>
+                                <p class="blog__author flow">Holy Jackson</p>
+                                <p class="blog__date flow">May 12th, 2023</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- The Love Hypothesis -->
+                <div class="blog">
+                    <div class="blog__content" id="TLHYPO">
+                        <a href="" class="blog__link">
+                            
+                            <div class="blog__text">
+                                <p class="blog__genre flow" id="romance">Romance</p>
+                                <p class="blog__title flow">The Love Hypothesis</p>
+                                <p class="blog__author flow">Ali Hazelwood</p>
+                                <p class="blog__date flow">August 23rd, 2022</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- From Blood and Ash -->
+                <div class="blog">
+                    <div class="blog__content" id="FBAA">
+                        <a href="" class="blog__link">
+                            
+                            <div class="blog__text">
+                                <p class="blog__genre flow" id="fantasy">Fantasy</p>
+                                <p class="blog__title flow">From Blood and Ash</p>
+                                <p class="blog__author flow">Jennifer L. Armentrout</p>
+                                <p class="blog__date flow">July 7th, 2022</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div> #}
+        </div>
+    </section>
