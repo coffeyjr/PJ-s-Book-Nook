@@ -1,7 +1,6 @@
 {
   "name": "!!-parker-jo-blog",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
@@ -17,5 +16,6 @@
   "dependencies": {
     "markdown-it": "^13.0.1",
     "markdown-it-attrs": "^4.1.6"
-  }
+  },
+  "description": ""
 }
