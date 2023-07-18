@@ -8,13 +8,13 @@
 	      <div class="collapse navbar-collapse triggerId" id="navbarNavDropdown">
 	        <ul class="navbar-nav nav__list ms-auto">
 	          <li class="nav-item">
-	            <a class="nav-link active" aria-current="page" href="/">Home</a>
+	            <a class="nav-link" href="/">Home</a>
 	          </li>
 	          <li class="nav-item">
-	            <a class="nav-link" href="/blogs/">Blogs</a>
+	            <a class="nav-link {{ 'active' if '/blogs/' in page.url }}" href="/blogs/">Blogs</a>
 	          </li>
               <li class="nav-item">
-	            <a class="nav-link" href="/about/">About</a>
+	            <a class="nav-link {{ 'active' if '/about/' in page.url }}" href="/about/">About</a>
 	          </li>
 	        </ul>
 	      </div>
