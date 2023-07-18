@@ -299,7 +299,7 @@ p {
     color: var(--clr-secondary);
     text-align: center;
 
-    width: 75%;
+    width: 100%;
 }
 
 .blog__title {
@@ -374,8 +374,8 @@ p {
     padding: .5em;
 
     background-image: repeating-linear-gradient(45deg, 
-    10px,
-    12px,
+    #DAB6BA 10px,
+    #DAB6BA 12px,
     transparent 12px,
     transparent 20px);
 }
