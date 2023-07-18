@@ -6,11 +6,11 @@ layout: 'base.njk'
 
     <a href="/blogs/"><i class="fa-solid fa-circle-arrow-left fa-2xl" id="back__btn" style="color: #6E2F2E;"></i></a>
 
-    <div class="book__review">
+    <div class="book__details--title">
+        <h1 class="book__title">{{ title }}</h1>
+    </div>
 
-        <div class="book__details--title">
-            <h1 class="book__title">{{ title }}</h1>
-        </div>
+    <div class="book__review">
 
         <div class="book__cover">
             <img src="{{ image }}" alt="{{ altImg }}" class="cover__img">
@@ -20,12 +20,12 @@ layout: 'base.njk'
             <p class="book__author">Author: {{ author }}</p>
             <p class="book__rating">Rating: {{ rating }}/5</p>
             <p class="book__date">Written on: {{ date | articleDate }}</p>
-        </div>
+        </div>   
 
+    </div>
 
         <div class="paragraph__flow">
             {{ content | safe }}
-        </div>    
+        </div> 
 
-    </div>
 </div>
