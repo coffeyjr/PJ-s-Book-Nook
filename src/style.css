@@ -4,9 +4,9 @@
 
     /* Site Color Scheme */
 
-    --clr-primary: #354f52;
-    --clr-secondary: #F1FAEE;
-    --clr-accent: #84a98c;
+    --clr-primary: #89687D;
+    --clr-secondary: #FFF7EC;
+    --clr-accent: #FCD8CC;
 
 }
 
@@ -21,6 +21,8 @@ body {
     font-family: 'Biko_Regular';
     scroll-behavior: smooth scroll;
     font-size: 1.25rem;
+
+    background: var(--clr-secondary);
 
 }
 
