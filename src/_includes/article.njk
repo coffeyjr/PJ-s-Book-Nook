@@ -6,16 +6,20 @@ layout: 'base.njk'
 
     <div class="book__review">
 
+        <div class="book__details--title">
+            <h1 class="book__title">{{ title }}</h1>
+        </div>
+
         <div class="book__cover">
             <img src="{{ image }}" alt="{{ altImg }}" class="cover__img">
         </div>
 
         <div class="book__details">
-            <h1 class="book__title">{{ title }}</h1>
-            <p class="book__author">{{ author }}</p>
+            <p class="book__author">Author: {{ author }}</p>
             <p class="book__rating">Rating: {{ rating }}/5</p>
-            <p class="book__date">Reviewed on: {{ date }}</p>
+            <p class="book__date">Written on: {{ date | articleDate }}</p>
         </div>
+
 
         <div class="paragraph__flow">
             {{ content | safe }}

@@ -8,9 +8,8 @@ layout: 'base.njk'
 
             <div class="blogs">
 
-                <!-- Court of Thorns and Roses -->
+               {%- for post in collections.post | reverse -%}
                 <div class="blog">
-                    {%- for post in collections.post | reverse -%}
                         <div class="blog__content" id="{{ post.data.cover }}">
                             <a href="{{ post.url }}" class="blog__link">
                                 
@@ -26,8 +25,8 @@ layout: 'base.njk'
 
                             </a>
                         </div>
-                    {%- endfor -%}
                 </div>
+                {%- endfor -%}
 
                 {# <!-- A Good Girls Guide to Murder -->
                 <div class="blog">

@@ -1,0 +1,11 @@
+---
+title: 
+author: 
+genre: 
+test: 
+date: 
+cover: 
+image: /images/
+altImg: 
+rating: 
+---
