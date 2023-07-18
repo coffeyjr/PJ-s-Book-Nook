@@ -346,7 +346,7 @@ p {
 
     -webkit-text-wrap: balance;
 
-    margin: 0;
+    margin-top: .75em;
     padding: 0;
 }
 
@@ -376,12 +376,6 @@ p {
     margin: auto;
     text-align: center;
     padding: .5em;
-
-    background-image: repeating-linear-gradient(45deg, 
-    #DAB6BA 10px,
-    #DAB6BA 12px,
-    transparent 12px,
-    transparent 20px);
 }
 
 .paragraph__flow h2:not(:first-child) {
@@ -429,5 +423,23 @@ p {
 
     .navbar {
         --bs-navbar-brand-padding-y: 0;
+    }
+}
+
+@media (min-width: 810px) {
+    .book__review {
+        flex-direction: row;
+        gap: 1em;
+        justify-content: center;
+
+        margin-bottom: 2.5em;
+    }
+
+    .book__cover {
+        width: 45%;
+    }
+
+    .book__details {
+        width: 45%;
     }
 }
