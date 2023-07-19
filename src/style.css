@@ -115,6 +115,8 @@ p {
     margin: 0;
     padding: .25em .5em .25em .5em;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+    text-align: center;
   }
 
 .nav-link:hover {
@@ -166,7 +168,7 @@ p {
 
 .page__title {
     font-size: clamp(1.953rem,1rem + 5vw,5rem);
-    margin-top: 1.5em;
+    margin-top: 1em;
     margin-bottom: 0em;
 }
 

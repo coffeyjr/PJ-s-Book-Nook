@@ -55,3 +55,43 @@
 
     color: #fff;
 }
+
+/* A Court of Frost and Starlight */
+#ACOFAS {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1585622963i/50659471.jpg");
+    background-size: cover;
+
+    color: #fff;
+}
+
+/* Twisted Love */ 
+#TL {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1618487915i/55817097.jpg");
+    background-size: cover;
+
+    color: #fff;
+}
+
+/* Court of the Vampire Queen */
+#COTVQ {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1644431148i/60338559.jpg");
+    background-size: cover;
+
+    color: #fff;
+}
+
+/* Hush, Hush */
+#HH {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1358261334i/6339664.jpg");
+    background-size: cover;
+
+    color: #fff;
+}
+
+/* Shatter Me */
+#SM {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1310649047i/10429045.jpg");
+    background-size: cover;
+
+    color: #fff;
+}

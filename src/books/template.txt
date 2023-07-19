@@ -6,6 +6,6 @@ test:
 date: 
 cover: 
 image: /images/
-altImg: 
+altImg:   book cover
 rating: 
 ---
