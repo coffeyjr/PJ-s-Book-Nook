@@ -41,11 +41,11 @@ layout: 'base.njk'
    
     <section class="main">
         <div class="container">
-            <h1 class="page__title" id="title--center">✨ Favorite Reads ✨</h1>
+            <h1 class="page__title" id="title--center"><span class="title__stars">✨</span> Favorite Reads <span class="title__stars">✨</span></h1>
 
             <div class="blogs">
 
-                {%- for post in collections.featured | reverse -%}
+                {%- for post in collections.favorites | reverse -%}
                     {% include 'article-snippet.njk' %}    
                 {%- endfor -%}
 

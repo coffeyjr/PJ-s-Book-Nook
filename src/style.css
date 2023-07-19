@@ -52,8 +52,8 @@ p {
     padding: 0;
 }
 
-#title__icon {
-    margin: 0em .2em 0em .2em;
+.title__stars {
+    font-size: .7em;
 }
 
 .container {

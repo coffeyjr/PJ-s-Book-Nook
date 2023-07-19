@@ -32,3 +32,18 @@
 
     color: #fff;
 }
+
+#TSHOEH {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1664458703i/32620332.jpg");
+    background-size: cover;
+
+    color: #fff;
+}
+
+/* A ​Court of Silver Flames */
+#ACOSF {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1602570691i/53138095.jpg");
+    background-size: cover;
+
+    color: #fff;
+}
