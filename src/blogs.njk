@@ -8,25 +8,9 @@ layout: 'base.njk'
 
             <div class="blogs">
 
-               {%- for post in collections.post | reverse -%}
-                <div class="blog">
-                        <div class="blog__content" id="{{ post.data.cover }}">
-                            <a href="{{ post.url }}" class="blog__link">
-                                
-                            
-                                <div class="blog__text">
-                                    
-                                        <p class="blog__genre flow" id="{{ post.data.test }}">{{ post.data.genre }}</p>
-                                        <p class="blog__title flow">{{ post.data.title }}</p>
-                                        <p class="blog__author flow">{{ post.data.author }}</p>
-                                        <p class="blog__date flow">{{ post.data.date | postDate }}</p>
-                                    
-                                </div>
-
-                            </a>
-                        </div>
-                </div>
-                {%- endfor -%}
+            {%- for post in collections.post | reverse -%}
+                {% include 'article-snippet.njk' %}    
+            {%- endfor -%}
 
             {% if pagination.href.previous %}<a= href="{{ pagination.href.previous }}">Previous page</a>{% endif %}
             {% if pagination.href.nex %}<a= href="{{ pagination.href.next }}">Next page</a>{% endif %}
