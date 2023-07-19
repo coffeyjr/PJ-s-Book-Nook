@@ -8,6 +8,7 @@ cover: TRM-WCS
 image: /images/TRM-WCS.jpg
 altImg: The Right Move (Windy City Series)
 rating: 5
+tags: favorites
 ---
 
 

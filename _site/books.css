@@ -47,3 +47,11 @@
 
     color: #fff;
 }
+
+/* Always Only You */
+#AOY {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1593579246i/54125750.jpg");
+    background-size: cover;
+
+    color: #fff;
+}
