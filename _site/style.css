@@ -52,6 +52,10 @@ p {
     padding: 0;
 }
 
+#title__icon {
+    margin: 0em .2em 0em .2em;
+}
+
 .container {
     max-width: 62.5rem;
     padding: 0 1.5rem;

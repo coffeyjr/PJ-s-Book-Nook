@@ -8,6 +8,7 @@ cover: ACOTAR
 image: /images/ACOTAR.jpg
 altImg: Test of alt image
 rating: 4
+tags: featured
 ---
 
 ## Heading 1

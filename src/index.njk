@@ -2,6 +2,38 @@
 title: PJ's Book Nook
 layout: 'base.njk'
 ---
+            	{# <style>
+                    #gr_updates_widget{
+                    margin-top: 2.5em;
+                    border-radius: 5px;
+                    background-color:#fff;
+                    border:solid #683205 10px;
+                    -webkit-box-shadow: 0px 0px 4px 1px #595959,
+                    inset 0px 0px 0px 1px #7D730B;
+                    -moz-box-shadow: 0px 0px 4px 1px #595959,
+                    inset 0px 0px 0px 1px #7D730B;
+                    box-shadow: 0px 0px 4px 1px #595959,
+                    inset 0px 0px 0px 1px #7D730B;
+                    padding:15px 0 35px 15px;
+                    width:100%;
+                    height:100%;
+                    }
+                    #gr_footer{
+                    margin-bottom:10px;
+                    }
+                    #gr_updates_widget p{
+                    padding:0px;
+                    margin:0;
+                    font-size:inherit;
+                    }
+                    #gr_footer img{
+                    width:100px;
+                    float:left;
+                    }
+                    #gr_updates_widget img{
+                        border-style:none;
+                    }
+                    </style> #}
 
     <!-- Back to top button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-circle-arrow-up fa-2xl" style="color: #84a98c;"></i></button> 
@@ -9,11 +41,31 @@ layout: 'base.njk'
    
     <section class="main">
         <div class="container">
+            <h1 class="page__title" id="title--center">✨ Favorite Reads ✨</h1>
+
+            <div class="blogs">
+
+                {%- for post in collections.featured | reverse -%}
+                    {% include 'article-snippet.njk' %}    
+                {%- endfor -%}
+
+            </div>
+
             <div class="home__hero">
                 <h1 class="page__title">Immerse Yourself in the Spellbending World of Books!</h1>
                 <p class="home__text">Welcome to my Book Nook! Indulge in the pleasure of reading as I take you on a literary journey like no other. Explore captivating book reviews, discover hidden literary gems, and join a vibrant community of book enthusiasts. My Book Nook is your haven for all things bookish, where imagination knows no bounds and the love for stories thrives. Get ready to embark on an extraordinary reading adventure with me! :)</p>
                 <a href="/blogs/" class="home__button">My Blogs</a>
             </div>
+
+            <h1 class="page__title" id="title--center">GoodRead stuff</h1>
+
+            {# <div id="gr_updates_widget">
+            <iframe sandbox id="the_iframe" src="https://www.goodreads.com/widgets/user_update_widget?height=400&num_updates=5&user=111614881&width=inherit" width="100%" height="330" frameborder="0"></iframe>
+                <div id="gr_footer">
+                    <a href="https://www.goodreads.com/"><img alt="Goodreads: Book reviews, recommendations, and discussion" rel="nofollow" src="https://s.gr-assets.com/images/layout/goodreads_logo_140.png" /></a>
+                </div> #}
+	</div>
+
         </div>
     </section>
 

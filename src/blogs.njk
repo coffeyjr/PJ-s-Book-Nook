@@ -6,13 +6,11 @@ layout: 'base.njk'
         <div class="container">
             <h1 class="page__title" id="title--center">My Blogs</h1>
 
-            <div class="blogs">
+        <div class="blogs">
 
             {%- for post in collections.post | reverse -%}
                 {% include 'article-snippet.njk' %}    
             {%- endfor -%}
 
-            {% if pagination.href.previous %}<a= href="{{ pagination.href.previous }}">Previous page</a>{% endif %}
-            {% if pagination.href.nex %}<a= href="{{ pagination.href.next }}">Next page</a>{% endif %}
         </div>
     </section>
