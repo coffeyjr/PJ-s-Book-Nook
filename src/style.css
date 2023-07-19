@@ -317,6 +317,13 @@ p {
 
 #back__btn {
     margin-top: 1.5em;
+    margin-right: .5em;
+}
+
+.back__btn--txt {
+    text-decoration: none;
+    color: #000;
+    font-size: .8em;
 }
 
 .book__review {
