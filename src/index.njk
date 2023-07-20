@@ -52,26 +52,14 @@ layout: 'base.njk'
     }
     </style>
 
-    <!-- Back to top button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-circle-arrow-up fa-2xl" style="color: #84a98c;"></i></button> 
-
-   
     <section class="main">
         <div class="container">
 
             <div class="home__hero">
 
-                <div class="hero__left">
                     <h1 class="page__title">Hi! Welcome to my Book Nook</h1>
-                    <a href="/bookshelf/" class="home__button">My Bookshelf</a>
-                </div>
-                
-                <div class="hero__right">
                     <p class="home__text">Here you'll be able to read my book reviews, see my recomendations, and more!</p>
-                </div
-                
             </div>    
-            </div>
 
             <h1 class="page__title" id="title--center"><span class="title__stars">✨</span> Favorite Reads <span class="title__stars">✨</span></h1>
 
@@ -82,6 +70,8 @@ layout: 'base.njk'
                 {%- endfor -%}
 
             </div>
+
+            <a href="/bookshelf/" class="home__button">My Bookshelf</a>
 
             <h1 class="page__title" id="title--center">Goodreads stuff</h1>
 

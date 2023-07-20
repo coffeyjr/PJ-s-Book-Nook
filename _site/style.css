@@ -104,6 +104,8 @@ p {
     outline: none;
     cursor: pointer;
     background: transparent;
+
+    color: var(--clr-primary);
 }
 
 .img__logo {
@@ -169,7 +171,6 @@ p {
 .home__hero {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .hero__left {
@@ -206,16 +207,20 @@ p {
 
     padding: 0.3em 5em;
     border-radius: 25px;
+    max-width: 50%;
+    margin: auto;
 
     font-weight: 700;
     font-size: .9em;
     text-align: center;
 
     margin-top: 1.25em;
+    
 }
 
-.home__button:hover {
-    opacity: .75;
+.home__button:hover,
+.home__button:focus {
+    outline: 2px solid var(--clr-primary);
 }
 
 /************/
@@ -508,10 +513,6 @@ p {
 
     .blogs {
         grid-template-columns: repeat(4, 1fr);
-    }
-
-    .home__hero {
-        flex-direction: row;
     }
 
 
