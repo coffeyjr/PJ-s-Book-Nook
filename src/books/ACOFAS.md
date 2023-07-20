@@ -5,7 +5,7 @@ genre: Fantasy
 test: fantasy
 date: 2023-01-10
 cover: ACOFAS
-image: /images/ACOFAS.jpg
+image: /images/ACOFAS.webp
 altImg: A Court of Frost and Starlight book cover
 rating: 3
 ---

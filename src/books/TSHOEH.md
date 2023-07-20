@@ -5,7 +5,7 @@ genre: Romance
 test: romance
 date: 2023-04-23
 cover: TSHOEH
-image: /images/TSHOEH.jpg
+image: /images/TSHOEH.webp
 altImg: The Seven Husbands of Evelyn Hugo book cover
 rating: 3
 ---
