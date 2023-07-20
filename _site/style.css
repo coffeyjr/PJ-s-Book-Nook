@@ -15,9 +15,15 @@
     --clr-accent: #585563; */
 
     /* Color Option 3 - Blue/Pink */
+    /* --clr-primary: #253D5B;
+    --clr-secondary: #FFF;
+    --clr-accent: #C6878F; */
+
+    /* Color Option 4 - Blue/Yellow */
     --clr-primary: #253D5B;
     --clr-secondary: #FFF;
-    --clr-accent: #C6878F;
+    --clr-accent: #F5DD90;
+
 }
 
 @font-face {
@@ -162,8 +168,17 @@ p {
 .home__hero {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+}
+
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hero__right {
+    width: 100%;
 }
 
 .page__title {
@@ -192,6 +207,8 @@ p {
     border-radius: 25px;
 
     font-weight: 700;
+    font-size: .9em;
+    text-align: center;
 
     margin-top: 1.25em;
 }
@@ -223,6 +240,10 @@ p {
 
 .description__text {
     margin: 1em 0em 1em 0em;
+    max-width: 60ch;
+
+    width: 100%;
+    margin: 1em auto auto auto;
 }
 
 /************/
@@ -264,7 +285,7 @@ p {
 
 /* Blogs CSS */
 .blogs {
-    margin-top: 2.5em;
+    margin: 2.5em 0em 2.5em 0em;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -483,4 +504,10 @@ p {
     .blogs {
         grid-template-columns: repeat(4, 1fr);
     }
+
+    .home__hero {
+        flex-direction: row;
+    }
+
+
 }
