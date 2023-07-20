@@ -5,7 +5,7 @@ genre: Romance
 test: romance
 date: 2023-01-02
 cover: TL
-image: /images/TL.jpg
+image: /images/TL.webp
 altImg: Twisted Love book cover
 rating: 3
 ---

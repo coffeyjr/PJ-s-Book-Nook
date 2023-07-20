@@ -5,7 +5,7 @@ genre: Fantasy
 test: fantasy
 date: 2021-09-27
 cover: ACOTAR
-image: /images/ACOTAR.jpg
+image: /images/ACOTAR.webp
 altImg: Test of alt image
 rating: 4
 tags: favorites
