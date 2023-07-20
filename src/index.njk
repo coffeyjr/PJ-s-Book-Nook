@@ -90,7 +90,7 @@ layout: 'base.njk'
 
             <h1 class="page__title" id="title--center">Comments</h1>
 
-            <!-- Remarkbox - Your readers want to communicate with you -->
+            {# <!-- Remarkbox - Your readers want to communicate with you -->
             <div id="remarkbox-div">
             <noscript>
                 <iframe id=remarkbox-iframe src="https://my.remarkbox.com/embed?nojs=true" style="height:600px;width:100%;border:none!important" tabindex=0></iframe>
@@ -130,7 +130,9 @@ layout: 'base.njk'
                 },
                 document.getElementById("remarkbox-iframe")
             );
-            </script>
+            </script> #}
+
+            <div id="disqus_thread"></div>
 
         </div>
 
