@@ -29,6 +29,7 @@
 @font-face {
     font-family: Biko_Regular;
     src: url('/fonts/biko/Biko_Regular.otf');
+    font-display: swap;
 }
 
 body {
