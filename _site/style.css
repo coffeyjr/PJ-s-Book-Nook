@@ -320,6 +320,13 @@ p {
     box-shadow: -8px 8px 0px -3px var(--clr-accent);
 }
 
+.blog__content:hover {
+    border: 5px solid var(--clr-accent);
+    -webkit-box-shadow: -8px 8px 0px -3px var(--clr-primary);
+    -moz-box-shadow: -8px 8px 0px -3px var(--clr-primary);
+    box-shadow: -8px 8px 0px -3px var(--clr-primary);
+}
+
 .blog__text {
     padding: 1em;
 
@@ -357,6 +364,44 @@ p {
 /*************/
 
 /* Article CSS */
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 125px;
+    padding: .4em 1em;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    border: 5px solid var(--clr-primary);
+    -webkit-box-shadow: -8px 8px 0px -3px var(--clr-accent);
+    -moz-box-shadow: -8px 8px 0px -3px var(--clr-accent);
+    box-shadow: -8px 8px 0px -3px var(--clr-accent);
+
+    color: var(--clr-primary);
+}
+
+.pagination__button:hover {
+    border: 5px solid var(--clr-accent);
+    -webkit-box-shadow: -8px 8px 0px -3px var(--clr-primary);
+    -moz-box-shadow: -8px 8px 0px -3px var(--clr-primary);
+    box-shadow: -8px 8px 0px -3px var(--clr-primary);
+}
+
+#next {
+    margin-left: auto;
+}
 
 #back__btn {
     margin-top: 1.5em;

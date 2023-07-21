@@ -18,8 +18,9 @@ pagination:
 
         </div>
 
-        {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Previous page</a>{% endif %}
- | 
-        {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next page</a>{% endif %}
-    
+        <div class="pagination">
+            {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}" class="pagination__button">Previous</a>{% endif %}
+            {% if pagination.href.next %}<a href="{{ pagination.href.next }}" class="pagination__button" id="next">Next</a>{% endif %}
+        </div>
+
     </section>
