@@ -1,6 +1,10 @@
 ---
 title: My Bookshelf
 layout: 'base.njk'
+pagination:
+  data: collections.post
+  size: 4
+  alias: posts
 ---
     <section class="main">
         <div class="container">
@@ -8,9 +12,13 @@ layout: 'base.njk'
 
         <div class="blogs">
 
-            {%- for post in collections.post | reverse -%}
+            {%- for post in posts -%}
                 {% include 'article-snippet.njk' %}    
             {%- endfor -%}
 
         </div>
+
+        {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Previous page</a>{% endif %}
+ | 
+    {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next page</a>{% endif %}
     </section>
