@@ -12,7 +12,7 @@ pagination:
 
         <div class="blogs">
 
-            {%- for post in posts -%}
+            {%- for post in posts | reverse -%}
                 {% include 'article-snippet.njk' %}    
             {%- endfor -%}
 

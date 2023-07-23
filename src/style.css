@@ -20,9 +20,14 @@
     --clr-accent: #C6878F; */
 
     /* Color Option 4 - Blue/Yellow */
-    --clr-primary: #253D5B;
+    /* --clr-primary: #253D5B;
     --clr-secondary: #FFF;
-    --clr-accent: #F5DD90;
+    --clr-accent: #F5DD90; */
+
+    /*  */
+    --clr-primary: #276c76;
+    --clr-secondary: #fff;
+    --clr-accent: #f4bf6d;
 
 }
 
@@ -441,7 +446,7 @@ p {
 }
 
 .book__details p {
-    margin-bottom: 2em;
+    margin-bottom: .5em;
 }
 
 
@@ -459,12 +464,27 @@ p {
     font-size: 1em;
 }
 
+#author__icon {
+    color: var(--clr-accent);
+    padding-right: .5em;
+}
+
 .book__rating {
     font-size: 1em;
 }
 
+#rating__icon {
+    color: var(--clr-accent);
+    padding-right: .5em;
+}
+
 .book__date {
     font-size: 1em;
+}
+
+#calendar__icon {
+    color: var(--clr-accent);
+    padding-right: .5em;
 }
 
 .paragraph__flow {

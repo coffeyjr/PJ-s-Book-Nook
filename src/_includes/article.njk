@@ -17,9 +17,9 @@ layout: 'base.njk'
         </div>
 
         <div class="book__details">
-            <p class="book__author">Author: {{ author }}</p>
-            <p class="book__rating">Rating: {{ rating }}/5</p>
-            <p class="book__date">Reviewed on: {{ date | articleDate }}</p>
+            <p class="book__author"><i class="fa-solid fa-pencil" id="author__icon"></i>{{ author }}</p>
+            <p class="book__rating"><i class="fa-solid fa-star" id="rating__icon"></i>{{ rating }}/5</p>
+            <p class="book__date"><i class="fa-regular fa-calendar-days" id="calendar__icon"></i>{{ date | articleDate }}</p>
         </div>   
 
     </div>
