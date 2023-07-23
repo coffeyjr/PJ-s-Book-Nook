@@ -5,6 +5,7 @@ pagination:
   data: collections.post
   size: 4
   alias: posts
+  reverse: true
 ---
     <section class="main">
         <div class="container">
@@ -12,7 +13,7 @@ pagination:
 
         <div class="blogs">
 
-            {%- for post in posts | reverse -%}
+            {%- for post in posts -%}
                 {% include 'article-snippet.njk' %}    
             {%- endfor -%}
 
