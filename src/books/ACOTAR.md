@@ -3,7 +3,7 @@ title: A Court of Thorns and Roses
 author: Sarah J. Maas
 genre: Fantasy
 test: fantasy
-date: 2021-09-27
+date: 2021-10-08
 cover: ACOTAR
 image: /images/ACOTAR.webp
 altImg: Test of alt image

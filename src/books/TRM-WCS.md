@@ -3,7 +3,7 @@ title: The Right Move
 author: Liz Tomforde
 genre: Romance
 test: romance
-date: 2023-07-16
+date: 2023-07-12
 cover: TRM-WCS
 image: /images/TRM-WCS.webp
 altImg: The Right Move (Windy City Series)
