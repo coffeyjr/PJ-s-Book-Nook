@@ -4,13 +4,23 @@ layout: 'base.njk'
 ---
 
     <section class="main">
-        <div class="container"> 
+        <div class="container">
 
             <h1 class="page__title" id="title--center"><span class="title__stars">✨</span> Favorite Reads <span class="title__stars">✨</span></h1>
 
             <div class="blogs">
 
                 {%- for post in collections.favorites | reverse -%}
+                    {% include 'article-snippet.njk' %}    
+                {%- endfor -%}
+
+            </div>
+
+            <h1 class="page__title" id="title--center"><i class="fa-solid fa-bookmark fa-xs" id="title__icon--left"></i>On Deck<i class="fa-solid fa-bookmark fa-xs" id="title__icon--right"></i></h1>
+
+            <div class="blogs">
+
+                {%- for post in collections.deck -%}
                     {% include 'article-snippet.njk' %}    
                 {%- endfor -%}
 

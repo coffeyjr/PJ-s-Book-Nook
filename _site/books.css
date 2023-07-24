@@ -95,3 +95,35 @@
 
     color: #fff;
 }
+
+/* These Twisted Bonds */
+#TTB {
+    background-image: url("/images/TTB.webp");
+    background-size: cover;
+
+    color: #fff;
+}
+
+/* Done and Dusted */
+#DAD {
+    background-image: url("/images/DAD.webp");
+    background-size: cover;
+
+    color: #fff;
+}
+
+/* The War of Two Queens */
+#TWOTQ {
+    background-image: url("/images/TWOTQ.webp");
+    background-size: cover;
+
+    color: #fff;
+}
+
+/* Love, Theoretically */
+#LT {
+    background-image: url("/images/LT.webp");
+    background-size: cover;
+
+    color: #fff;
+}
