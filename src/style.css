@@ -31,25 +31,41 @@
 
 }
 
+/* Header/Title Font */
 @font-face {
     font-family: Biko_Regular;
     src: url('/fonts/biko/Biko_Regular.otf');
     font-display: swap;
 }
 
+/* Body Font */
+@font-face {
+    font-family: AppleGaramond;
+    src: url('/fonts/apple_garamond/AppleGaramond.ttf');
+    font-display: swap;
+}
+
 body {
     margin: 0;
-    font-size: 1.25rem;
-    font-family: 'Biko_Regular';
+    font-size: 1.3rem;
+    font-family: 'AppleGaramond';
     scroll-behavior: smooth scroll;
     font-size: 1.25rem;
-
+    text-rendering: optimizeSpeed;
     background: var(--clr-secondary);
+    /* line-height: 1.6; */
 
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
+    font-family: 'Biko_Regular';
+}
+
+.navbar-nav,
+.blog,
+a {
+font-family: 'Biko_Regular';
 }
 
 img, picture {
@@ -280,7 +296,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0 0 2rem;
+    margin: .5rem 0 2rem;
     padding: 0;
 
     list-style: none;
@@ -383,7 +399,7 @@ p {
     align-items: center;
     justify-content: center;
 
-    width: 125px;
+    width: 125;
     padding: .4em 1em;
 
     text-decoration: none;
@@ -410,7 +426,6 @@ p {
 
 #back__btn {
     margin-top: 1.5em;
-    margin-right: .5em;
 
     color: var(--clr-primary);
 }
@@ -419,6 +434,21 @@ p {
     text-decoration: none;
     color: #000;
     font-size: clamp(.9rem,.5rem + 2vw,1.25rem);
+    font-family: 'Biko_Regular';
+    padding: .25em;
+
+    border: 5px solid var(--clr-primary);
+    -webkit-box-shadow: -6px 6px 0px -3px var(--clr-accent);
+    -moz-box-shadow: -6px 6px 0px -3px var(--clr-accent);
+    box-shadow: -6px 6px 0px -3px var(--clr-accent);
+}
+
+.back__btn--txt:hover,
+.back__btn--txt:focus {
+    border: 5px solid var(--clr-accent);
+    -webkit-box-shadow: -6px 6px 0px -3px var(--clr-primary);
+    -moz-box-shadow: -6px 6px 0px -3px var(--clr-primary);
+    box-shadow: -6px 6px 0px -3px var(--clr-primary);
 }
 
 .book__review {
@@ -500,7 +530,7 @@ p {
 }
 
 .paragraph__flow h2 {
-    font-size: clamp(1.75rem,.05rem + 5vw,2.5rem);
+    font-size: clamp(1.953rem,.05rem + 5vw,5rem);
     width: 100%;
     margin: auto;
     text-align: center;

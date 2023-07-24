@@ -20,8 +20,8 @@ pagination:
         </div>
 
         <div class="pagination">
-            {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}" class="pagination__button">Previous</a>{% endif %}
-            {% if pagination.href.next %}<a href="{{ pagination.href.next }}" class="pagination__button" id="next">Next</a>{% endif %}
+            {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}" class="pagination__button"><i class="fa-solid fa-angle-left"></i></a>{% endif %}
+            {% if pagination.href.next %}<a href="{{ pagination.href.next }}" class="pagination__button" id="next"><i class="fa-solid fa-angle-right"></i></a>{% endif %}
         </div>
 
     </section>
