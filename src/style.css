@@ -435,7 +435,7 @@ p {
     color: #000;
     font-size: clamp(.9rem,.5rem + 2vw,1.25rem);
     font-family: 'Biko_Regular';
-    padding: .25em;
+    padding: 0.25em 1em 0.25em 1em;
 
     border: 5px solid var(--clr-primary);
     -webkit-box-shadow: -6px 6px 0px -3px var(--clr-accent);
