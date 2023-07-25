@@ -1,5 +1,9 @@
 :root {
 
+    /* Dimensions */
+    --dot-size: 1px;
+    --dot-space: 22px;
+
     /* Color variables */
 
     /* Site Color Scheme */
@@ -39,16 +43,17 @@
 }
 
 /* Body Font */
-@font-face {
+/* @font-face {
     font-family: AppleGaramond;
     src: url('/fonts/apple_garamond/AppleGaramond.ttf');
     font-display: swap;
-}
+} */
 
 body {
     margin: 0;
     font-size: 1.3rem;
-    font-family: 'AppleGaramond';
+    font-family: 'Gentium Book Plus', serif;
+    font-display: swap;
     scroll-behavior: smooth scroll;
     font-size: 1.25rem;
     text-rendering: optimizeSpeed;
@@ -261,7 +266,7 @@ p {
 
 .description__text {
     margin: 1em 0em 1em 0em;
-    max-width: 60ch;
+    max-width: 80ch;
 
     width: 100%;
     margin: 1em auto auto auto;
@@ -521,7 +526,7 @@ p {
 }
 
 .paragraph__flow p {
-    max-width: 60ch;
+    max-width: 80ch;
     width: 100%;
 
     margin: auto;
@@ -561,10 +566,17 @@ p {
 
 .review__coming {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    height: 320px;
+    margin-top: 1em;
+}
+
+.review__coming-txt {
+    margin-top: 1em;
+
+    text-align: center;
 }
 /**********************/
 

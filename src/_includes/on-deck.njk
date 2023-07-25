@@ -8,6 +8,17 @@ layout: 'base.njk'
 
     <div class="review__coming">
         <h1 class="review__coming-txt">Review Coming Soon!</h1>
+
+        <h1 class="review__coming-txt">In the meantime, enjoy some of my most recent reads! <i class="fa-regular fa-face-smile-beam"></i></h1>
+        <div class="other__books">
+            <div class="blogs">
+
+                {%- for post in collections.favorites | reverse -%}
+                    {% include 'article-snippet.njk' %}    
+                {%- endfor -%}
+
+            </div>
+        </div>
     </div>
 
 </div>
